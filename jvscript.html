@@ -1,0 +1,45 @@
+<!Doctype html>
+
+<head>
+    <title>Javascript | variables , Arrays & objects</title>
+</head>
+
+<body>
+    <div id="test"></div>
+    <script>
+        //console.log('hello world');
+        document.write('Hello World');
+        // document.getElementById('test').innerHTML='Hello World';
+        var x = 5;
+        var y = 10;
+        console.log(x + y);
+        var person = 'John Doe';
+        console.log('My name is ' + person);
+        var Animals = ['cat', 'cow', 'hen'];
+        Animals[3] = 'cock';
+
+        Animals.push('pig');
+        console.log(Animals);
+        console.log(Animals.length);
+        console.log(Animals.sort());
+        var cars = [
+            {
+                make: 'Ford',
+                model: 'Mustang',
+                year: 1964,
+            },
+            {
+                make: 'Chevy',
+                model: 'Impala',
+                year: 1978,
+            },
+            {
+                make: 'Toyota',
+                model: 'Camvy',
+                year: 2015,
+            }
+        ];
+    </script>
+</body>
+
+</html>

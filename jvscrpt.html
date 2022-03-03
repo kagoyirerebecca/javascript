@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <title>loops </title>
+</head>
+<div id="cars"></div>
+
+<body>
+    <script type="text/JavaScript">
+        // var x=5;
+        // var y=10;
+        // console.log(x+y);
+        /*for (i=0;i>10;i++) {
+            console.log(i);
+        }*/
+      /*  var i=0;
+        while(i<10){
+            console.log(i);
+            i++;
+        }*/
+        var cars=[
+    {
+        make:'Ford',
+        model:'Mustang',
+        year:1964,
+    },
+    {
+        make:'Chevy',
+        model:'Impala',
+        year:1978,
+    },
+    {
+        make:'Toyota',
+        model:'Camvy',
+        year:2015,
+    }
+];
+var output='';
+for(var i=0;i<cars.length;i++){
+    document.getElementById('cars').innerHTML +='<li>'+cars[i].make+'-'+cars[i].model+'</li>';
+}
+/*var x=10;
+var y=15;
+if (x<y){
+    console.log(x+'is less than '+y);
+}else if (x=y){
+    console.log(x+'is equal to'+y);
+}else{
+    console.log(x+'is more than '+y)
+}
+var name='Adam'
+switch(name){
+    case 'Joe':
+    console.log('My name is Joe');
+    case 'Jeff':
+    console.log('My name is Jeff');
+    case 'Jack':
+    console.log('My name is Jack');
+    break;
+    default:
+    console.log('My name is' +name);
+    break;
+}*/
+
+    </script>
+</body>
+
+</html>
